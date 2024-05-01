@@ -1,0 +1,19 @@
+.list-group{
+    margin: 1em auto 1em;
+    width: 42em;
+    text-align: left;
+}
+
+label{
+    margin-top: 0.2em;
+}
+
+.btn-outline-warning{
+    float: right;
+    margin-right: 2em;
+    width: 6em;
+}
+
+.btn-outline-warning:hover{
+    background-color: red;
+}
