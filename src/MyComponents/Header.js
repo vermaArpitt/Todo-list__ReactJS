@@ -10,8 +10,8 @@ export default function Header(props) {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Add Task</a>
+                        <li className="nav-item my-2">
+                            A To-Do List App
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">About</a>

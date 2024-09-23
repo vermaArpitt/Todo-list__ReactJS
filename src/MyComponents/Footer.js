@@ -13,7 +13,7 @@ export default function Footer(){
     }
     return(
         <footer style = {footerStyle}>
-            <p>Copyright &copy; MyTo-doList.com</p>
+            <p>Copyright &copy; Chore Chore!.com</p>
         </footer>
     )
 }
