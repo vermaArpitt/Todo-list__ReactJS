@@ -11,8 +11,8 @@ function App() {
   {sno : 2, title : "Submit Assignment"},
   {sno : 3, title : "Study AI"}]);
 
-  const addTask = () => {
-
+  const addTask = (task) => {
+    setTodos([...todos, {sno: 4, title: task}]);
   }
 
   const onDelete = (todo) => {
@@ -24,7 +24,7 @@ function App() {
   return (
     <>
     <Header title = "Chore-Chore!"/>
-    <AddTodo/>
+    <AddTodo addTask={addTask}/>
     <Todos todos = {todos} onDelete = {onDelete}/>
     <Footer/>
     </>

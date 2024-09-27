@@ -13,9 +13,6 @@ export default function Header(props) {
                         <li className="nav-item my-2">
                             A To-Do List App
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
-                        </li>
                     </ul>
                 </div>
             </div>
