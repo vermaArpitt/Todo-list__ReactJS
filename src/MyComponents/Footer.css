@@ -1,4 +1,13 @@
 footer{
-    max-width: 100%;
-    background-color: greenyellow;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(5, 161, 36);
+    color: white;
+    margin-top: 3px;
+    border-radius: 10px 10px 0 0;
+    height: fit-content;
+}
+
+footer p{
+    margin: 2px;
 }
